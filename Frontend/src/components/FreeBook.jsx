@@ -1,3 +1,4 @@
+
 import React from "react";
 import list from "../../public/list.json";
 import "slick-carousel/slick/slick.css";
@@ -45,9 +46,9 @@ function FreeBook({ theme }) {
 
   return (
     <div
-      className={`w-full max-w-full container mx-auto px-10 md:px-20 pb-5  ${
+      className={`max-w-screen-2xl container mx-auto px-10 md:px-20 pb-10 md:pb-15 min-h-full ${
         theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-gray-700"
-      } overflow-x-hidden`}
+      }`}
     >
       <br />
       {/* Header */}

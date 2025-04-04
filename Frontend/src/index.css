@@ -110,3 +110,10 @@ body.dark .slick-next {
   color: white; /* Arrows in Dark Mode */
 }
 
+
+.slick-dots {
+  margin-bottom: 0px !important; /* Prevent extra bottom spacing */
+  padding-bottom: 0px !important;
+}
+
+
