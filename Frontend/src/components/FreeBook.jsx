@@ -45,9 +45,9 @@ function FreeBook({ theme }) {
 
   return (
     <div
-      className={`max-w-screen-2xl container mx-auto px-10 md:px-20 min-h-screen ${
+      className={`w-full max-w-full container mx-auto px-10 md:px-20 pb-5  ${
         theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-gray-700"
-      }`}
+      } overflow-x-hidden`}
     >
       <br />
       {/* Header */}
