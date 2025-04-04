@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "name": "Story Book",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://media.istockphoto.com/id/2162792200/photo/stack-of-books-3d-rendering.webp?b=1&s=612x612&w=0&k=20&c=Ycv1lcAL_cT9ocgxBf_Ufqhka72iQocslmtNKf-z-Bc="
+  },
+  
+{
+    "id": 2,
+    "name": "Action Book",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 20,
+    "category": "Free",
+    "image": "https://media.istockphoto.com/id/2162792200/photo/stack-of-books-3d-rendering.webp?b=1&s=612x612&w=0&k=20&c=Ycv1lcAL_cT9ocgxBf_Ufqhka72iQocslmtNKf-z-Bc="
+  },
+{
+    "id": 3,
+    "name": "Drama Book",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 20,
+    "category": "Free",
+    "image": "https://media.istockphoto.com/id/2162792200/photo/stack-of-books-3d-rendering.webp?b=1&s=612x612&w=0&k=20&c=Ycv1lcAL_cT9ocgxBf_Ufqhka72iQocslmtNKf-z-Bc="
+  },
+  {
+    "id": 4,
+    "name": "chacha Book",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://media.istockphoto.com/id/2162792200/photo/stack-of-books-3d-rendering.webp?b=1&s=612x612&w=0&k=20&c=Ycv1lcAL_cT9ocgxBf_Ufqhka72iQocslmtNKf-z-Bc="
+  },{
+    "id": 5,
+    "name": "chachi Book",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://media.istockphoto.com/id/2162792200/photo/stack-of-books-3d-rendering.webp?b=1&s=612x612&w=0&k=20&c=Ycv1lcAL_cT9ocgxBf_Ufqhka72iQocslmtNKf-z-Bc="
+  },
+  {
+    "id": 6,
+    "name": "11111 Book",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 22,
+    "category": "paid",
+    "image": "https://media.istockphoto.com/id/2162792200/photo/stack-of-books-3d-rendering.webp?b=1&s=612x612&w=0&k=20&c=Ycv1lcAL_cT9ocgxBf_Ufqhka72iQocslmtNKf-z-Bc="
+  },
+  {
+    "id": 7,
+    "name": "2222 Book",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 244,
+    "category": "paid",
+    "image": "https://media.istockphoto.com/id/2162792200/photo/stack-of-books-3d-rendering.webp?b=1&s=612x612&w=0&k=20&c=Ycv1lcAL_cT9ocgxBf_Ufqhka72iQocslmtNKf-z-Bc="
+  }
+  ]

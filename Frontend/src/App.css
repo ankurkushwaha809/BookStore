@@ -1,0 +1,74 @@
+/* Light Mode (Default) */
+body {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: #1c2127;
+    color: white;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+  }
+  
+  body.dark .navbar {
+    background: #222831;
+  }
+  
+  /* Navbar Links */
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  body.dark .nav-links a {
+    color: white;
+  }
+  
+  /* Buttons */
+  .theme-toggle-btn {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background: gray;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  body.dark .theme-toggle-btn {
+    background: yellow;
+    color: black;
+  }
+  
+  .login-btn {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  body.dark .login-btn {
+    background: white;
+    color: black;
+  }
+  

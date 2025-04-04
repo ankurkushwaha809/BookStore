@@ -1,0 +1,112 @@
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap"); 
+*/
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* 
+body {
+  font-family: "Poppins", sans-serif;
+} 
+*/
+
+/* Global Selection & Cursor Settings */
+div {
+  caret-color: transparent; /* Hide cursor in div */
+  user-select: none; /* Prevents accidental selection */
+}
+
+h1, h2, h3, p, span {
+  caret-color: auto; /* Show cursor in text elements */
+  user-select: text; /* Allow text selection */
+}
+
+/* Light Mode (Default) */
+body {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: rgb(28, 33, 39);
+  color: white;
+}
+
+/* Navbar Dark Mode */
+body.dark .navbar {
+  background: #222831;
+}
+
+/* Navbar Links */
+body.dark .menu a {
+  color: white;
+}
+
+/* Dark Mode Button */
+body.dark .swap svg {
+  fill: yellow;
+}
+
+/* Default Light Mode */
+.card-theme {
+  background: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+body.dark .card-theme {
+  background: rgb(28, 33, 39);
+  color: white;
+  border: 1px solid #555;
+}
+
+/* Dark Mode Badge */
+body.dark .badge-outline {
+  border-color: white;
+}
+
+/* Buy Now Button - Keep it the same */
+.badge:hover {
+  background-color: pink;
+  color: white;
+}
+
+/* Default Light Mode */
+.course-theme {
+  background: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+body.dark .course-theme {
+  background: rgb(28, 33, 39);
+  color: white;
+}
+
+/* ==== 🛠 SLIDER FIXES (For Light & Dark Modes) ==== */
+
+/* Light Mode Slider */
+body:not(.dark) .slick-dots li button:before {
+  color: black; /* Dots in Light Mode */
+}
+
+body:not(.dark) .slick-prev,
+body:not(.dark) .slick-next {
+  color: black; /* Arrows in Light Mode */
+}
+
+/* Dark Mode Slider */
+body.dark .slick-dots li button:before {
+  color: white; /* Dots in Dark Mode */
+}
+
+body.dark .slick-prev,
+body.dark .slick-next {
+  color: white; /* Arrows in Dark Mode */
+}
+
